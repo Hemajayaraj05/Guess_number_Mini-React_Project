@@ -1,0 +1,37 @@
+body{
+  background-color: rgb(65, 91, 147);
+ height:100vh;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+.container{
+
+  background: #F3904F;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3B4371, #F3904F);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3B4371, #F3904F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  padding:10px;
+  margin:5px;
+  height:20vh;
+  width:50vw;
+}
+.head{
+  padding:10px;
+
+}
+input{
+  margin:10px;
+  padding:10px;
+  width:auto;
+  border-radius: 8px;
+}
+
+input:hover{
+  box-shadow: rgb(116, 82, 49);
+  color:black;
+}
+
